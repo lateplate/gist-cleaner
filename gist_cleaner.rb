@@ -19,7 +19,7 @@ class GistCleaner
       gists.each_with_index do |gist, i|
         id = gist["id"]
         puts "#{i+1}. DELETING: http://gist.github.com/#{@username}/#{id}"
-        command = delete("/gists/#{id}", headers: {"User-Agent" => @username})
+        delete("/gists/#{id}", headers: {"User-Agent" => @username})
       end
     end
   end
