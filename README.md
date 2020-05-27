@@ -5,8 +5,8 @@ This is a slight tweak (aka, a complete rip of) [Trevor's original Gist](https:/
 
 ## Setup
 
-1. `gem install httparty`
+1. From the command line: `gem install httparty`
 1. Open `gist_cleaner.rb` in any editor and change the [`@username`](https://github.com/lateplate/gist-cleaner/blob/master/gist_cleaner.rb#L6) and [`@password`](https://github.com/lateplate/gist-cleaner/blob/master/gist_cleaner.rb#L7) values to your's. If you're using Github's 2-factor authentication, you'll need to create an [application password](https://github.com/settings/tokens) and choose a single permission: `gist -> Create gists`
 
 ## Run
-1. From the command line, run `ruby gist_cleaner.rb`
+1. From the command line: `ruby gist_cleaner.rb`
